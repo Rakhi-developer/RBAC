@@ -3,8 +3,6 @@ const verifyToken = require("../middleware/authMiddleware");
 const authorizeRole = require("../middleware/roleMiddleware");
 const router = express.Router();
 
-// const routes=express.Router();
-
 // only admin can access this routes
 router.get(
   "/admin",
